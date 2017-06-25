@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: use materialistic::rust;
-email: kroisse@gmail.com
+title: "materialistic::rust"
+email: "kroisse@gmail.com"
 description: > # this means to ignore newlines until "baseurl:"
   A personal blog about using Rust programming language
 baseurl: "" # the subpath of your site, e.g. /blog
