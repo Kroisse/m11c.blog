@@ -1,2 +1,7 @@
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+pygments: true
+
 timezone: Asia/Seoul
 theme: jekyll-theme-minimal
+
+title: `use materialistic::rust;`
