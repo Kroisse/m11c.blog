@@ -13,19 +13,19 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "materialistic::rust"
+title: "materialistic::prog"
 email: "kroisse@gmail.com"
 description: > # this means to ignore newlines until "baseurl:"
-  A personal blog about using Rust programming language
+  A personal blog about computer programming
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://prog.materialistic.kr/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: materialistic42
 github_username:  Kroisse
 
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
 exclude:
   - Gemfile
@@ -35,3 +35,6 @@ exclude:
   - changelog.md
 timezone: Asia/Seoul
 
+kramdown:
+  input: GFM
+  hard_wrap: false
