@@ -40,3 +40,6 @@ timezone: Asia/Seoul
 kramdown:
   input: GFM
   hard_wrap: false
+
+minima:
+  date_format: "%Y-%m-%d"
