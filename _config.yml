@@ -19,7 +19,7 @@ email: "kroisse@gmail.com"
 description: > # this means to ignore newlines until "baseurl:"
   A personal blog about computer programming
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://m11c.blog/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://m11c.blog" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: m11c_
 github_username:  Kroisse
 google_analytics: UA-39551104-7
@@ -29,6 +29,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 exclude:
   - vendor
   - Gemfile
