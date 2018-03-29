@@ -4,7 +4,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title highlight" rel="author" href="{{ "/" | relative_url }}"><code class="language-rust" data-lang="rust"><span class="k">extern</span> <span class="k">crate</span> <span class="n">materialistic</span> <span class="k">as</span> <span class="n">m11c</span><span class="p">;</span><br /><span class="k">use</span> <span class="nn">m11c</span><span class="p">::</span><span class="n">blog</span><span class="p">;</span></code></a>
-
+    {% comment %}
     {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -28,5 +28,6 @@
         </div>
       </nav>
     {%- endif -%}
+    {% endcomment %}
   </div>
 </header>
